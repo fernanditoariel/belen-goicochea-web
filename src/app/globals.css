@@ -97,6 +97,7 @@ button, input, textarea { font: inherit; }
 .hero-visual { position: relative; }
 .hero-image-frame { position: relative; min-height: 35rem; border-radius: 14rem 14rem 2.2rem 2.2rem; overflow: hidden; background: var(--aqua-light); box-shadow: var(--shadow); }
 .cover-image { object-fit: cover; }
+.hero-photo { object-position: 51% center; }
 .hero-badge { position: absolute; left: -2.5rem; bottom: 2.5rem; min-width: 15.5rem; display: flex; gap: .8rem; align-items: center; padding: .9rem 1rem; border-radius: 1rem; background: rgba(255,255,255,.94); box-shadow: 0 18px 45px rgba(18,60,67,.16); backdrop-filter: blur(14px); }
 .badge-icon { width: 2.8rem; height: 2.8rem; display: grid; place-items: center; border-radius: 50%; color: var(--deep); background: var(--aqua-light); }
 .hero-badge strong, .hero-badge small { display: block; }
@@ -219,6 +220,7 @@ button, input, textarea { font: inherit; }
   .hero-lead, .hero-actions { margin-inline: auto; }
   .hero-actions, .hero-location { justify-content: center; }
   .hero-image-frame { min-height: min(34rem, 105vw); border-radius: 12rem 12rem 1.8rem 1.8rem; }
+  .hero-photo { object-position: 49% center; }
   .hero-badge { left: 1rem; bottom: 1rem; }
   .about-grid, .benefits-grid, .formation-grid, .faq-grid { grid-template-columns: 1fr; }
   .about-content { padding-top: 0; }

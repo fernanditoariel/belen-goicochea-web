@@ -27,8 +27,8 @@ const services = [
     title: "Personal Training",
     description:
       "Un espacio de entrenamiento pensado para acompañarte de manera cercana, respetando tu punto de partida y tus objetivos.",
-    image: "/images/photo-1.png",
-    alt: "Belén Goicochea acompañando una clase de entrenamiento físico",
+    image: "/images/gimnasia-grupal.webp",
+    alt: "Belén Goicochea guiando una clase grupal de entrenamiento físico",
   },
   {
     icon: PersonStanding,
@@ -36,7 +36,7 @@ const services = [
     title: "Pilates Reformer",
     description:
       "Clases para trabajar movilidad, postura, fuerza y control corporal con atención en la técnica de cada movimiento.",
-    image: "/images/photo-7.png",
+    image: "/images/pilates-grupal.webp",
     alt: "Belén Goicochea guiando una clase de Pilates Reformer",
   },
   {
@@ -45,7 +45,7 @@ const services = [
     title: "Natación",
     description:
       "Enseñanza y acompañamiento en el agua para aprender, mejorar la técnica y disfrutar la actividad con confianza.",
-    image: "/images/photo-5.png",
+    image: "/images/natacion-instruccion.webp",
     alt: "Belén Goicochea dando indicaciones durante una clase de natación",
   },
 ];
@@ -58,10 +58,10 @@ const benefits = [
 ];
 
 const gallery = [
-  { src: "/images/photo-2.png", alt: "Belén Goicochea dirigiendo una actividad física grupal", className: "gallery-wide" },
-  { src: "/images/photo-3.png", alt: "Belén Goicochea acompañando a sus alumnos durante una clase", className: "gallery-tall" },
-  { src: "/images/photo-4.png", alt: "Clase de educación física coordinada por Belén Goicochea", className: "" },
-  { src: "/images/photo-6.png", alt: "Belén Goicochea dando instrucciones en una clase grupal", className: "" },
+  { src: "/images/pilates.webp", alt: "Belén Goicochea demostrando un ejercicio de Pilates Reformer", className: "gallery-wide" },
+  { src: "/images/natacion-grupal.webp", alt: "Clase grupal de natación coordinada por Belén Goicochea", className: "gallery-tall" },
+  { src: "/images/gimnasia-infantil.webp", alt: "Belén Goicochea coordinando un circuito de educación física infantil", className: "" },
+  { src: "/images/juegos-infantiles.webp", alt: "Belén Goicochea acompañando una actividad física con niñas y niños", className: "" },
 ];
 
 const faqs = [
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
           <Reveal delay={0.12} className="hero-visual">
             <div className="hero-image-frame">
-              <Image src="/images/photo-1.png" alt="Belén Goicochea durante una clase de actividad física" fill priority sizes="(max-width: 900px) 100vw, 47vw" className="cover-image" />
+              <Image src="/images/gimnasia-grupal.webp" alt="Belén Goicochea guiando una clase grupal de actividad física" fill priority sizes="(max-width: 900px) 100vw, 47vw" className="cover-image hero-photo" />
             </div>
             <div className="hero-badge">
               <span className="badge-icon"><GraduationCap aria-hidden="true" size={22} /></span>
